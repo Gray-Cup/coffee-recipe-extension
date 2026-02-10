@@ -1,0 +1,487 @@
+[
+  {
+    "id": "classic-cold-brew",
+    "name": "Classic Cold Brew",
+    "category": "cold-brew",
+    "tags": ["iced", "strong", "simple", "overnight"],
+    "caffeinated": true,
+    "brewTimeMinutes": 720,
+    "ingredients": [
+      { "name": "Coarsely ground coffee", "amount": "100g" },
+      { "name": "Cold filtered water", "amount": "700ml" },
+      { "name": "Ice cubes", "amount": "to serve" }
+    ],
+    "steps": [
+      "Combine coffee grounds and cold water in a large jar or pitcher.",
+      "Stir gently to ensure all grounds are saturated.",
+      "Cover and refrigerate for 12-18 hours.",
+      "Strain through a fine mesh sieve lined with cheesecloth.",
+      "Serve over ice, diluting with water or milk to taste."
+    ],
+    "image": "images/cold-brew.svg",
+    "description": "A smooth, low-acid coffee steeped overnight for a naturally sweet and bold flavor."
+  },
+  {
+    "id": "vanilla-cold-brew",
+    "name": "Vanilla Sweet Cold Brew",
+    "category": "cold-brew",
+    "tags": ["iced", "sweet", "milk-based", "vanilla"],
+    "caffeinated": true,
+    "brewTimeMinutes": 730,
+    "ingredients": [
+      { "name": "Cold brew concentrate", "amount": "200ml" },
+      { "name": "Vanilla syrup", "amount": "30ml" },
+      { "name": "Whole milk or oat milk", "amount": "100ml" },
+      { "name": "Ice cubes", "amount": "to fill" }
+    ],
+    "steps": [
+      "Fill a tall glass with ice cubes.",
+      "Pour vanilla syrup over the ice.",
+      "Add cold brew concentrate.",
+      "Top with milk and stir gently to combine."
+    ],
+    "image": "images/cold-brew.svg",
+    "description": "A creamy, vanilla-kissed cold brew that's refreshing and indulgent."
+  },
+  {
+    "id": "cold-brew-concentrate",
+    "name": "Cold Brew Concentrate",
+    "category": "cold-brew",
+    "tags": ["strong", "concentrate", "overnight", "versatile"],
+    "caffeinated": true,
+    "brewTimeMinutes": 1440,
+    "ingredients": [
+      { "name": "Coarsely ground dark roast coffee", "amount": "200g" },
+      { "name": "Cold filtered water", "amount": "800ml" }
+    ],
+    "steps": [
+      "Combine coffee grounds and water in a large jar at a 1:4 ratio.",
+      "Stir well and seal the jar tightly.",
+      "Refrigerate for 18-24 hours for maximum extraction.",
+      "Strain twice through a fine sieve and cheesecloth.",
+      "Store concentrate in the fridge; dilute 1:1 with water or milk to serve."
+    ],
+    "image": "images/cold-brew.svg",
+    "description": "An extra-strong concentrate perfect for diluting into your ideal cold brew strength."
+  },
+  {
+    "id": "decaf-cold-brew",
+    "name": "Decaf Cold Brew",
+    "category": "cold-brew",
+    "tags": ["iced", "simple", "decaf", "smooth"],
+    "caffeinated": false,
+    "brewTimeMinutes": 720,
+    "ingredients": [
+      { "name": "Coarsely ground decaf coffee", "amount": "100g" },
+      { "name": "Cold filtered water", "amount": "700ml" },
+      { "name": "Ice cubes", "amount": "to serve" }
+    ],
+    "steps": [
+      "Combine decaf coffee grounds and cold water in a large jar.",
+      "Stir to ensure all grounds are evenly saturated.",
+      "Cover and refrigerate for 12-18 hours.",
+      "Strain through a cheesecloth-lined sieve.",
+      "Serve over ice with a splash of milk if desired."
+    ],
+    "image": "images/cold-brew.svg",
+    "description": "All the smooth, mellow flavor of cold brew without the caffeine buzz."
+  },
+  {
+    "id": "classic-pour-over",
+    "name": "Classic Pour Over",
+    "category": "pour-over",
+    "tags": ["hot", "clean", "aromatic", "simple"],
+    "caffeinated": true,
+    "brewTimeMinutes": 4,
+    "ingredients": [
+      { "name": "Medium-fine ground coffee", "amount": "18g" },
+      { "name": "Hot water (93-96°C)", "amount": "300ml" },
+      { "name": "Paper filter", "amount": "1" }
+    ],
+    "steps": [
+      "Place the paper filter in the dripper and rinse with hot water; discard rinse water.",
+      "Add coffee grounds and create a small well in the center.",
+      "Pour 40ml of water to bloom the grounds; wait 30 seconds.",
+      "Slowly pour remaining water in concentric circles over 2-3 minutes.",
+      "Let the last of the water drain through and serve immediately."
+    ],
+    "image": "images/pour-over.svg",
+    "description": "A clean, bright cup that highlights the origin character of your beans."
+  },
+  {
+    "id": "honey-pour-over",
+    "name": "Honey Pour Over",
+    "category": "pour-over",
+    "tags": ["hot", "sweet", "aromatic", "honey"],
+    "caffeinated": true,
+    "brewTimeMinutes": 5,
+    "ingredients": [
+      { "name": "Medium-fine ground coffee", "amount": "18g" },
+      { "name": "Hot water (93-96°C)", "amount": "300ml" },
+      { "name": "Raw honey", "amount": "1 tsp" },
+      { "name": "Paper filter", "amount": "1" }
+    ],
+    "steps": [
+      "Drizzle honey into the bottom of your serving mug.",
+      "Rinse the paper filter with hot water and discard rinse water.",
+      "Add grounds, bloom with 40ml water for 30 seconds.",
+      "Pour remaining water in slow, steady circles over 2-3 minutes.",
+      "Stir the brewed coffee in the mug to dissolve the honey and enjoy."
+    ],
+    "image": "images/pour-over.svg",
+    "description": "A naturally sweetened pour over with floral honey notes complementing the coffee."
+  },
+  {
+    "id": "iced-pour-over",
+    "name": "Japanese Iced Pour Over",
+    "category": "pour-over",
+    "tags": ["iced", "clean", "aromatic", "refreshing"],
+    "caffeinated": true,
+    "brewTimeMinutes": 4,
+    "ingredients": [
+      { "name": "Medium-fine ground coffee", "amount": "22g" },
+      { "name": "Hot water (93-96°C)", "amount": "200ml" },
+      { "name": "Ice cubes", "amount": "120g" },
+      { "name": "Paper filter", "amount": "1" }
+    ],
+    "steps": [
+      "Place 120g of ice in your serving vessel.",
+      "Set up the dripper on top and rinse the filter with hot water.",
+      "Add coffee grounds and bloom with 45ml water for 30 seconds.",
+      "Pour remaining hot water slowly; it will drip directly onto the ice.",
+      "Swirl gently to chill and serve immediately."
+    ],
+    "image": "images/pour-over.svg",
+    "description": "Flash-chilled pour over that locks in bright, complex flavors over ice."
+  },
+  {
+    "id": "decaf-pour-over",
+    "name": "Decaf Pour Over",
+    "category": "pour-over",
+    "tags": ["hot", "clean", "decaf", "mellow"],
+    "caffeinated": false,
+    "brewTimeMinutes": 4,
+    "ingredients": [
+      { "name": "Medium-fine ground decaf coffee", "amount": "20g" },
+      { "name": "Hot water (93-96°C)", "amount": "300ml" },
+      { "name": "Paper filter", "amount": "1" }
+    ],
+    "steps": [
+      "Rinse the paper filter with hot water and discard.",
+      "Add decaf grounds and make a small well in the center.",
+      "Bloom with 45ml of water for 35 seconds.",
+      "Pour remaining water in slow, steady circles.",
+      "Let it drain completely and enjoy a calm, clean cup."
+    ],
+    "image": "images/pour-over.svg",
+    "description": "A mellow, clean-tasting pour over for those quiet caffeine-free moments."
+  },
+  {
+    "id": "classic-espresso",
+    "name": "Classic Espresso",
+    "category": "espresso",
+    "tags": ["hot", "strong", "quick", "intense"],
+    "caffeinated": true,
+    "brewTimeMinutes": 1,
+    "ingredients": [
+      { "name": "Finely ground espresso beans", "amount": "18g" },
+      { "name": "Filtered water", "amount": "36ml" }
+    ],
+    "steps": [
+      "Grind beans to a fine, powdery consistency.",
+      "Distribute grounds evenly in the portafilter and tamp firmly.",
+      "Lock the portafilter and start extraction.",
+      "Aim for 25-30 seconds of extraction yielding about 36ml.",
+      "Serve immediately in a pre-warmed demitasse cup."
+    ],
+    "image": "images/espresso.svg",
+    "description": "A concentrated shot of pure coffee with a thick, golden crema on top."
+  },
+  {
+    "id": "double-espresso",
+    "name": "Doppio Espresso",
+    "category": "espresso",
+    "tags": ["hot", "strong", "quick", "bold"],
+    "caffeinated": true,
+    "brewTimeMinutes": 1,
+    "ingredients": [
+      { "name": "Finely ground espresso beans", "amount": "18g" },
+      { "name": "Filtered water", "amount": "60ml" }
+    ],
+    "steps": [
+      "Grind beans to a fine espresso grind.",
+      "Dose 18g into a double portafilter basket and tamp evenly.",
+      "Extract for 25-30 seconds, yielding approximately 60ml.",
+      "Check for a rich, tiger-striped crema.",
+      "Serve in a warm cappuccino cup for sipping."
+    ],
+    "image": "images/espresso.svg",
+    "description": "A bold double shot with intense flavor and a velvety crema layer."
+  },
+  {
+    "id": "espresso-macchiato",
+    "name": "Espresso Macchiato",
+    "category": "espresso",
+    "tags": ["hot", "strong", "milk-based", "classic"],
+    "caffeinated": true,
+    "brewTimeMinutes": 2,
+    "ingredients": [
+      { "name": "Finely ground espresso beans", "amount": "18g" },
+      { "name": "Filtered water", "amount": "36ml" },
+      { "name": "Steamed milk foam", "amount": "1 tbsp" }
+    ],
+    "steps": [
+      "Pull a standard espresso shot (18g in, 36ml out, 25-30 sec).",
+      "Steam a small amount of milk until frothy.",
+      "Spoon a single dollop of foam onto the espresso.",
+      "Serve immediately to enjoy the contrast of bitter and creamy."
+    ],
+    "image": "images/espresso.svg",
+    "description": "An espresso 'stained' with just a touch of milk foam for a balanced sip."
+  },
+  {
+    "id": "classic-espresso-tonic",
+    "name": "Classic Espresso Tonic",
+    "category": "espresso-tonic",
+    "tags": ["iced", "refreshing", "bitter", "sparkling"],
+    "caffeinated": true,
+    "brewTimeMinutes": 3,
+    "ingredients": [
+      { "name": "Espresso shot", "amount": "30ml" },
+      { "name": "Premium tonic water", "amount": "150ml" },
+      { "name": "Ice cubes", "amount": "to fill" },
+      { "name": "Lemon twist", "amount": "1", "optional": true }
+    ],
+    "steps": [
+      "Fill a tall glass with ice cubes.",
+      "Pour cold tonic water over the ice.",
+      "Slowly pour a freshly pulled espresso shot over the back of a spoon to layer.",
+      "Garnish with a lemon twist if desired.",
+      "Stir gently before drinking or enjoy the layered effect."
+    ],
+    "image": "images/espresso-tonic.svg",
+    "description": "A fizzy, bittersweet refresher where espresso meets sparkling tonic water."
+  },
+  {
+    "id": "citrus-espresso-tonic",
+    "name": "Citrus Espresso Tonic",
+    "category": "espresso-tonic",
+    "tags": ["iced", "refreshing", "citrus", "sparkling"],
+    "caffeinated": true,
+    "brewTimeMinutes": 3,
+    "ingredients": [
+      { "name": "Espresso shot", "amount": "30ml" },
+      { "name": "Tonic water", "amount": "150ml" },
+      { "name": "Fresh orange juice", "amount": "30ml" },
+      { "name": "Ice cubes", "amount": "to fill" },
+      { "name": "Orange slice", "amount": "1" }
+    ],
+    "steps": [
+      "Fill a glass with ice and add fresh orange juice.",
+      "Pour tonic water over the ice and orange juice.",
+      "Pull a fresh espresso shot and let it cool for 30 seconds.",
+      "Slowly pour the espresso over the back of a spoon to create layers.",
+      "Garnish with an orange slice and serve."
+    ],
+    "image": "images/espresso-tonic.svg",
+    "description": "A vibrant twist on the espresso tonic with fresh citrus brightness."
+  },
+  {
+    "id": "lavender-espresso-tonic",
+    "name": "Lavender Espresso Tonic",
+    "category": "espresso-tonic",
+    "tags": ["iced", "floral", "refreshing", "sparkling"],
+    "caffeinated": true,
+    "brewTimeMinutes": 5,
+    "ingredients": [
+      { "name": "Espresso shot", "amount": "30ml" },
+      { "name": "Tonic water", "amount": "150ml" },
+      { "name": "Lavender syrup", "amount": "15ml" },
+      { "name": "Ice cubes", "amount": "to fill" },
+      { "name": "Dried lavender sprig", "amount": "1", "optional": true }
+    ],
+    "steps": [
+      "Add lavender syrup to the bottom of a tall glass.",
+      "Fill with ice cubes.",
+      "Pour tonic water over the ice and stir gently.",
+      "Slowly pour espresso over the back of a spoon to layer.",
+      "Garnish with a dried lavender sprig."
+    ],
+    "image": "images/espresso-tonic.svg",
+    "description": "A floral and fizzy espresso tonic with calming lavender notes."
+  },
+  {
+    "id": "classic-latte",
+    "name": "Classic Caffe Latte",
+    "category": "latte",
+    "tags": ["hot", "milk-based", "creamy", "classic"],
+    "caffeinated": true,
+    "brewTimeMinutes": 3,
+    "ingredients": [
+      { "name": "Espresso shot", "amount": "30ml" },
+      { "name": "Steamed whole milk", "amount": "240ml" },
+      { "name": "Milk foam", "amount": "thin layer" }
+    ],
+    "steps": [
+      "Pull a fresh espresso shot into a large mug.",
+      "Steam milk until silky with microfoam (60-65°C).",
+      "Pour steamed milk slowly into the espresso, holding back foam.",
+      "Top with a thin layer of milk foam.",
+      "Serve immediately while hot."
+    ],
+    "image": "images/latte.svg",
+    "description": "The quintessential milk coffee — creamy, smooth, and perfectly balanced."
+  },
+  {
+    "id": "vanilla-latte",
+    "name": "Vanilla Latte",
+    "category": "latte",
+    "tags": ["hot", "milk-based", "sweet", "vanilla"],
+    "caffeinated": true,
+    "brewTimeMinutes": 3,
+    "ingredients": [
+      { "name": "Espresso shot", "amount": "30ml" },
+      { "name": "Steamed milk", "amount": "240ml" },
+      { "name": "Vanilla syrup", "amount": "20ml" }
+    ],
+    "steps": [
+      "Add vanilla syrup to a large mug.",
+      "Pull a fresh espresso shot directly into the syrup and stir.",
+      "Steam milk to silky microfoam (60-65°C).",
+      "Pour steamed milk into the mug in a steady stream.",
+      "Optionally dust with vanilla powder on top."
+    ],
+    "image": "images/latte.svg",
+    "description": "A warm, aromatic latte with smooth vanilla sweetness in every sip."
+  },
+  {
+    "id": "oat-milk-latte",
+    "name": "Oat Milk Latte",
+    "category": "latte",
+    "tags": ["hot", "milk-based", "creamy", "plant-based"],
+    "caffeinated": true,
+    "brewTimeMinutes": 3,
+    "ingredients": [
+      { "name": "Espresso shot", "amount": "30ml" },
+      { "name": "Barista oat milk", "amount": "240ml" }
+    ],
+    "steps": [
+      "Pull a fresh espresso shot into a large mug.",
+      "Steam barista-style oat milk to silky microfoam (65°C).",
+      "Pour slowly into the espresso for a smooth blend.",
+      "The natural sweetness of oat milk complements the espresso perfectly."
+    ],
+    "image": "images/latte.svg",
+    "description": "A plant-based latte with naturally sweet, creamy oat milk."
+  },
+  {
+    "id": "decaf-latte",
+    "name": "Decaf Latte",
+    "category": "latte",
+    "tags": ["hot", "milk-based", "decaf", "creamy"],
+    "caffeinated": false,
+    "brewTimeMinutes": 3,
+    "ingredients": [
+      { "name": "Decaf espresso shot", "amount": "30ml" },
+      { "name": "Steamed milk", "amount": "240ml" },
+      { "name": "Milk foam", "amount": "thin layer" }
+    ],
+    "steps": [
+      "Pull a decaf espresso shot into a large mug.",
+      "Steam milk until silky with microfoam (60-65°C).",
+      "Pour steamed milk slowly into the espresso.",
+      "Top with a thin layer of foam and serve."
+    ],
+    "image": "images/latte.svg",
+    "description": "All the creamy comfort of a latte, completely caffeine-free."
+  },
+  {
+    "id": "classic-iced-coffee",
+    "name": "Classic Iced Coffee",
+    "category": "iced-coffee",
+    "tags": ["iced", "simple", "refreshing", "quick"],
+    "caffeinated": true,
+    "brewTimeMinutes": 5,
+    "ingredients": [
+      { "name": "Strong brewed coffee", "amount": "250ml" },
+      { "name": "Ice cubes", "amount": "to fill" },
+      { "name": "Simple syrup", "amount": "15ml", "optional": true },
+      { "name": "Milk or cream", "amount": "splash", "optional": true }
+    ],
+    "steps": [
+      "Brew coffee at double strength using your preferred method.",
+      "Allow the coffee to cool to room temperature.",
+      "Fill a tall glass with ice cubes.",
+      "Pour coffee over the ice and add sweetener or milk to taste."
+    ],
+    "image": "images/iced-coffee.svg",
+    "description": "A simple, refreshing iced coffee perfect for warm days."
+  },
+  {
+    "id": "mocha-iced-coffee",
+    "name": "Iced Mocha",
+    "category": "iced-coffee",
+    "tags": ["iced", "chocolate", "sweet", "milk-based"],
+    "caffeinated": true,
+    "brewTimeMinutes": 5,
+    "ingredients": [
+      { "name": "Espresso or strong coffee", "amount": "60ml" },
+      { "name": "Chocolate syrup", "amount": "30ml" },
+      { "name": "Cold milk", "amount": "200ml" },
+      { "name": "Ice cubes", "amount": "to fill" },
+      { "name": "Whipped cream", "amount": "to top", "optional": true }
+    ],
+    "steps": [
+      "Add chocolate syrup to a tall glass.",
+      "Pour in the espresso or strong coffee and stir to combine.",
+      "Fill the glass with ice cubes.",
+      "Pour cold milk over the ice.",
+      "Top with whipped cream if desired."
+    ],
+    "image": "images/iced-coffee.svg",
+    "description": "A chocolatey, indulgent iced coffee that satisfies both coffee and dessert cravings."
+  },
+  {
+    "id": "caramel-iced-coffee",
+    "name": "Caramel Iced Coffee",
+    "category": "iced-coffee",
+    "tags": ["iced", "sweet", "caramel", "milk-based"],
+    "caffeinated": true,
+    "brewTimeMinutes": 5,
+    "ingredients": [
+      { "name": "Strong brewed coffee", "amount": "250ml" },
+      { "name": "Caramel sauce", "amount": "30ml" },
+      { "name": "Cold milk", "amount": "100ml" },
+      { "name": "Ice cubes", "amount": "to fill" }
+    ],
+    "steps": [
+      "Drizzle caramel sauce along the inside of a tall glass.",
+      "Fill the glass with ice cubes.",
+      "Pour cooled strong coffee over the ice.",
+      "Add cold milk and stir to swirl the caramel through."
+    ],
+    "image": "images/iced-coffee.svg",
+    "description": "A buttery caramel iced coffee with beautiful sauce swirls in every glass."
+  },
+  {
+    "id": "decaf-iced-coffee",
+    "name": "Decaf Iced Coffee",
+    "category": "iced-coffee",
+    "tags": ["iced", "decaf", "simple", "refreshing"],
+    "caffeinated": false,
+    "brewTimeMinutes": 5,
+    "ingredients": [
+      { "name": "Strong brewed decaf coffee", "amount": "250ml" },
+      { "name": "Ice cubes", "amount": "to fill" },
+      { "name": "Milk or cream", "amount": "splash", "optional": true }
+    ],
+    "steps": [
+      "Brew decaf coffee at double strength.",
+      "Allow to cool to room temperature.",
+      "Fill a tall glass with ice cubes.",
+      "Pour decaf coffee over ice and add milk to taste."
+    ],
+    "image": "images/iced-coffee.svg",
+    "description": "A refreshing caffeine-free iced coffee for any time of day."
+  }
+]
