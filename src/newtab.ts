@@ -9,27 +9,15 @@ async function main(): Promise<void> {
   const randomizer = new Randomizer(recipeService);
 
   const state = await storageService.getState();
-  const today = new Date().toISOString().slice(0, 10);
 
-  let currentRecipe;
-
-  // Same day: show the same recipe as before
-  if (state.lastShownDate === today && state.lastRecipeId) {
-    currentRecipe = recipeService.getById(state.lastRecipeId);
-  }
-
-  // New day or first run: pick a new daily recipe
-  if (!currentRecipe) {
-    currentRecipe = randomizer.getDailyRecipe(
-      today,
-      state.lastRecipeId,
-      state.userPreferences,
-    );
-    await storageService.updateState({
-      lastShownDate: today,
-      lastRecipeId: currentRecipe.id,
-    });
-  }
+  // Pick a new random recipe on every new tab, avoiding the last shown one
+  const currentRecipe = randomizer.surpriseMe(
+    state.lastRecipeId,
+    state.userPreferences,
+  );
+  await storageService.updateState({
+    lastRecipeId: currentRecipe.id,
+  });
 
   const renderer = new UIRenderer({
     recipeService,
